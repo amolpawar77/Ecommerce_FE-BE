@@ -1,0 +1,76 @@
+<%- include("navbar.ejs") %>
+	<section id="page-header" class="about-header">
+		<h2>#let's_talk</h2>
+		<p>LEAVE A MESSAGE, we love to hear from You!</p>
+	</section>
+
+	<section id="cart" class="section-p1">
+		<table width="100%">
+			<thead>
+				<tr>
+					<td>Remove</td>
+					<td>Image</td>
+					<td>Product</td>
+					<td>Price</td>
+					<td>Quantity</td>
+					<td>Subtotal</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="#"><i class="far fa-times-circle"></i></a></td>
+					<td><img src="img/products/f1.jpg"></td>
+					<td>Cartoon Astronaut T-Shirts</td>
+					<td>$118.19</td>
+					<td><input type="number" value="1" name=""></td>
+					<td>$118.19</td>
+				</tr>
+				<tr>
+					<td><a href="#"><i class="far fa-times-circle"></i></a></td>
+					<td><img src="img/products/f2.jpg"></td>
+					<td>Cartoon Astronaut T-Shirts</td>
+					<td>$150.56</td>
+					<td><input type="number" value="1" name=""></td>
+					<td>$150.56</td>
+				</tr>
+				<tr>
+					<td><a href="#"><i class="far fa-times-circle"></i></a></td>
+					<td><img src="img/products/f3.jpg"></td>
+					<td>Cartoon Astronaut T-Shirts</td>
+					<td>$100.00</td>
+					<td><input type="number" value="1" name=""></td>
+					<td>$100.00</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section id="cart-add" class="section-p1">
+		<div id="coupon">
+			<h3>Apply Coupon</h3>
+			<div>
+				<input type="text" placeholder="Enter Your Coupon" name="">
+				<button class="normal">Apply</button>
+			</div>
+		</div>
+
+		<div id="subtotal">
+			<h3>Card Totals</h3>
+			<table>
+				<tr>
+					<td>Card Subtotal</td>
+					<td>$335</td>
+				</tr>
+				<tr>
+					<td>Shipping</td>
+					<td>Free</td>
+				</tr>
+				<tr>
+					<td><strong>Total</strong></td>
+					<td><strong>$335</strong></td>
+				</tr>
+			</table>
+			<button class="normal">Proceed to Checkout</button>
+		</div>
+	</section>
+   <%- include("footer.ejs") %>
